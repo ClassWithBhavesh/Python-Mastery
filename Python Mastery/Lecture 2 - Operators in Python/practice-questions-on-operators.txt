@@ -1,0 +1,122 @@
+---> Membership Operator Questions (in, not in)
+1. Write a program to check if the letter 'a' is present in the string "data analysis".
+
+2. Check if the number 10 is present in the list:
+li = [5, 8, 10, 12, 15]
+
+3. Given a username input by the user, check if it exists in:
+valid_users = ["admin", "user", "manager"]
+
+4. Check if the color "blue" is not present in:
+colors = ["red", "green", "yellow"]
+If not present, print "Color not found".
+
+5. Given email = "student@gmail.com", check if '@' exists in the email string.
+
+6. Check if the fruit "Mango" is present in the tuple:
+fruits = ("Apple", "Banana", "Orange")
+
+7. Check if a key "price" exists in a dictionary:
+product = {"name": "Laptop", "brand": "Dell"}
+
+8. Write a program to check whether the number entered by a user is present in the list
+numbers = list(range(1, 51))
+
+9. Test whether the substring "Num" exists in "NumPy" (case sensitive).
+
+10. Check if 'x' is NOT present in "python"
+If true, print "Character missing".
+
+
+
+---> Identity Operator Questions (is, is not)
+1. Given:
+a = [1, 2, 3]
+b = a
+Check if a is b.
+
+2. Given:
+x = [10, 20, 30]
+y = [10, 20, 30]
+Check whether x is y.
+
+3. Given two variables:
+a = None
+b = None
+Check if both are identical.
+
+4. Check if:
+A = True
+B = 1
+Are identical using is?
+
+5. Given:
+p = "hello"
+q = p
+Check identity using is.
+
+6. Given two integers:
+x = 256
+y = 256
+Check if both refer to the same object.
+
+7. Given:
+list1 = []
+list2 = []
+Check if they are not identical.
+
+8. Check identity between:
+a = 0
+b = False
+
+9. Write a program to verify if two dictionary objects point to the same memory reference.
+
+10. Given:
+num1 = int(1000)
+num2 = int(1000)
+Check: num1 is num2
+Explain why identity differs here.
+
+
+
+---> Bitwise Operator Questions (&, |, ^, ~, <<, >>)
+1. Given:
+x = 6   # 110
+y = 3   # 011
+Use bitwise AND to determine if both have the same last bit.
+
+2. Given a number, check if it is even using bitwise:
+num & 1 == 0
+
+3. Check if either of two feature flags is ON using bitwise OR:
+flag1 = 0b010
+flag2 = 0b100
+
+4. Given:
+a = 12   # 1100
+b = 10   # 1010
+
+
+Use XOR to detect differing bits.
+
+5. Use bitwise NOT ~n to print the negative form of an integer.
+
+6. Shift a number left by 1 bit and check if it becomes double:
+value = 7
+
+7. Shift a number right by 2 bits and check the result:
+x = 40
+
+8. Use:
+num = 5
+Check whether num << 3 equals num * 8.
+
+9. Given:
+x = 13   # 1101
+Use bitwise operations to check if the second LSB is 1.
+
+10. Given a binary permission system:
+1 = Read
+2 = Write
+4 = Execute
+Check if the user with permission 5 (101) has execute permission using bitwise AND.
