@@ -1,0 +1,185 @@
+# Practice questions for nested-if :-
+
+1. Movie Ticket Pricing System
+A theatre charges based on:
+Age < 12 → ₹100
+Age between 12–59 → ₹150
+Age ≥ 60 → Senior discount
+If senior citizen has ID → ₹80
+Else → ₹120
+Write a program using nested if to calculate the final ticket price.
+
+2. College Admission Eligibility
+A student must satisfy:
+Minimum 50% overall
+If overall ≥ 50 AND math ≥ 60 → Eligible
+If math < 60 but science ≥ 65 → Conditionally eligible
+Else → Not Eligible
+Use nested if to print admission status.
+
+3. Credit Card Application Approval
+Bank criteria:
+Age ≥ 21
+Income ≥ 25,000 → “Approved”
+If income < 25,000 but has existing account → “Requires manual review”
+Age < 21 → “Rejected”
+Write code using nested if.
+
+4. Online Food Delivery Charge System
+Delivery charges:
+Order amount ≥ 500 → Free delivery
+Else
+Distance ≤ 3 km → ₹20
+Distance 4–7 km → ₹40
+Distance > 7 km → No delivery service
+Use nested if to determine final delivery charge.
+
+5. Employee Bonus Allocation
+Bonus depends on:
+Years of experience > 5
+Performance rating ≥ 4 → 20% bonus
+Else → 10% bonus
+Experience ≤ 5 → 5% flat bonus
+Write nested if logic for bonus.
+
+6. Student Result Classification
+Rules:
+If marks ≥ 90 → Distinction
+Else
+If marks ≥ 75 → First Class
+Else
+If marks ≥ 50 → Second Class
+Else → Fail
+Use nested if to print class.
+
+7. Gym Membership Fee Calculation
+Monthly fee depends on:
+Membership type
+Gold → ₹1500
+If add personal trainer → Extra ₹800
+Silver → ₹1000
+If diet plan required → Extra ₹300
+Other membership → Not available
+Use nested if.
+
+8. Job Application Filter System
+Requirements:
+Degree must be "B.Tech"
+CGPA must be ≥ 7.0
+If specialization is "CS" or "IT" → Eligible
+Else → Not preferred
+If degree is not B.Tech → Not eligible
+Use nested if.
+
+9. E-commerce Discount Logic
+Discount conditions:
+Is festival season?
+Yes → Apply 20%
+If payment mode = UPI → Additional 5%
+No → Standard 10%
+Use nested if.
+
+10. Apartment Electricity Bill Calculation
+Rules:
+Units ≤ 100 → ₹5/unit
+Units 101–200 →
+First 100 units = ₹5
+Remaining units = ₹8
+Units > 200 →
+First 100 = ₹5
+Next 100 = ₹8
+Remaining = ₹12
+Use nested if for calculation.
+
+11. Airport Baggage Check System
+Conditions:
+Weight ≤ 15kg → No extra charge
+Weight > 15kg
+If passenger has membership card → 50% off on overweight fee
+Else → Full overweight fee
+Use nested if.
+
+12. Student Scholarship Eligibility
+Criteria:
+Family income < ₹3 lakh
+Academics ≥ 85% → Full scholarship
+70–84% → Half scholarship
+Else → No scholarship
+Income ≥ ₹3 lakh → Not eligible
+Using nested if, find scholarship status.
+
+13. Car Insurance Premium Calculator
+Premium depends on:
+Age > 25
+Accident record?
+Yes → High premium
+No → Normal premium
+Age ≤ 25 → Extra young-driver surcharge
+Use nested if.
+
+14. Supermarket Loyalty Program
+Eligibility:
+Customer must have loyalty membership
+If monthly spending ≥ 5000
+If 5-year member → Platinum benefits
+Else → Gold benefits
+Spending < 5000 → Silver benefits
+Non-members → No benefits
+Use nested if.
+
+15. Hostel Room Allocation System
+Rules:
+Gender = Male
+If year = 1 → Block A
+Else → Block B
+Gender = Female
+If year = 1 → Block C
+Else → Block D
+Use nested if.
+
+16. Online Exam Authentication System
+Requirements:
+Student must enter correct username
+Then correct password
+If 2-step verification enabled → ask OTP
+If OTP correct → Allow exam
+Else → Block access
+Use nested if.
+
+17. Weather Alert System
+Based on temperature:
+Temperature > 40
+If humidity > 70 → “Severe Heat Wave”
+Else → “Heat Wave”
+Temperature 20–40 → “Normal”
+Temp < 20
+If temp < 5 → “Extreme Cold”
+Else → “Cold”
+Use nested if logic.
+
+18. Banking Loan Approval Based on Collateral
+Loan approval:
+If credit score ≥ 750
+If collateral provided → “Approved”
+Else → “Low approval probability”
+Credit score < 750 → “Rejected”
+Use nested if.
+
+19. Smart Home AC Controller
+Controls:
+If room occupied
+If temperature > 28 → Turn AC ON
+If humidity > 60 → Set to Turbo Mode
+Else → Keep OFF
+If room empty → Always OFF
+Use nested if.
+
+20. Doctor Appointment Scheduling
+Rules:
+If doctor available
+If time slot is free
+If patient is emergency → Allot immediately
+Else → Book normally
+Else → “Slot full”
+Doctor not available → “Not available today”
+Use nested if.
