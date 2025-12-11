@@ -1,0 +1,105 @@
+# 10 BASIC Recursion Questions (Real-Life Oriented)
+1. Factorial for Product Manufacturing
+A factory calculates the number of unique assembly sequences using factorial.
+Write a recursive function to compute n!.
+
+2. Sum of Digits for Billing System
+A billing app needs to validate bill numbers using the sum of digits.
+Write a recursive function to return the sum of digits of a number.
+
+3. Count Occurrences in a List
+Given a list of product names, count how many times a specific product appears using recursion.
+
+4. Reverse a String for Username Validation
+A system stores usernames reversed in the database.
+Write a recursive function to reverse a string.
+
+5. Fibonacci for Growth Prediction
+A company predicts user growth using Fibonacci modeling.
+Print the first n Fibonacci numbers using recursion.
+
+6. Find Minimum in List
+Using recursion, find the smallest value in a list of daily temperatures.
+
+7. Power Calculation
+Write a recursive function to compute a^b where a is power consumption and b is hours of usage.
+
+8. Even/Odd Determination
+Use recursion to determine if a number is even or odd (without using %).
+
+9. Recursively Count Files in Folder (Simulated)
+Given a nested list representing folder → subfolder → files, count all files using recursion.
+
+10. Palindrome Checker
+Check if a word is a palindrome using recursion (used in password validation systems).
+
+# 10 INTERMEDIATE Recursion Questions (Real-Life Based)
+11. Directory Tree Printer
+Simulate printing folder structure using recursion (like Windows Explorer or Linux tree command).
+
+12. Flatten Inventory Dataset
+Given a nested list of inventory items:
+[['Apple', ['Banana']], 'Milk', ['Bread', ['Eggs']]]
+Flatten it using recursion.
+
+13. Nested JSON Search
+Write a recursive function to search for a key inside a nested dictionary (used in API responses).
+
+14. Sum of Nested List
+Calculate total number of students across school classes stored in nested lists.
+
+15. Compute Number of Ways to Climb Stairs
+A fitness app calculates ways to climb n stairs using steps of 1 or 2. Solve recursively.
+
+16. Remove All Occurrences of a Character
+Given a paragraph, recursively remove a particular letter. (Useful in input sanitization.)
+
+17. Generate All Combinations of a Word
+A password generator must create all possible combinations of letters in a word.
+Write a recursive solution.
+
+18. Check if Nested Structure Contains Value
+Given nested categories, check recursively if a certain product exists.
+
+19. Recursively Compare Two JSON Objects
+Used in API testing: compare whether two nested dictionaries contain identical structure and values.
+
+20. Recursively Replace Target Value in Nested Structure
+Replace all occurrences of "Male" with "M" inside deeply nested HR data.
+
+# 10 ADVANCED Recursion Questions (Real-Life & Interview Level)
+21. Solve Tower of Hanoi (Logistics/Robotics Application)
+Warehouse robots follow similar logic to move crates between racks.
+Solve Tower of Hanoi using recursion.
+
+22. Pathfinding in Grid (Game/AI Logic)
+Given a grid with obstacles, recursively count ways for a robot to reach the bottom-right corner.
+
+23. Recursively Evaluate Mathematical Expressions
+Parse and compute expressions like:
+"3 + (2 * (7 - 4))"
+
+24. Word Break Problem (Autocomplete System)
+Check recursively if a sentence can be formed from dictionary words.
+Used in search engines and NLP.
+
+25. Generate All Valid Parentheses
+Used in compiler design for validating bracket sequences.
+Print all valid combinations for n pairs.
+
+26. File System Duplicate Finder
+Recursively compare folders to find duplicate filenames (simulate environment).
+
+27. N-Queens Problem (Placement Optimization)
+Place N queens on an NxN chessboard such that none attack each other.
+Used in optimization algorithms.
+
+28. Sudoku Solver (Backtracking Recursion)
+Solve a sudoku puzzle using recursive backtracking logic.
+
+29. Recursively Build a Binary Search Tree from Sorted List
+Used in database indexing & memory-efficient search structures.
+
+30. AI Decision Tree Traversal
+Given a decision tree:
+Traverse recursively to make a prediction based on user input.
